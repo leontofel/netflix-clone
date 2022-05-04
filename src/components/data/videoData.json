@@ -1,0 +1,185 @@
+{
+    "listas": [
+        {
+            "minhaLista": [
+                {
+                    "id": 1,
+                    "categorie": "movies",
+                    "title": "Fight Club",
+                    "url": "https://www.youtube.com/embed/zvtUrjfnSnA"
+                },
+                {
+                    "id": 2,
+                    "categorie": "movies",
+                    "title": "The Bad Guys",
+                    "url": "https://www.youtube.com/embed/M60Gu2SLJ3A"
+                },
+                {
+                    "id": 3,
+                    "categorie": "series",
+                    "title": "The Walking Dead",
+                    "url": "https://www.youtube.com/embed/wgKirinMZ6Y"
+                },
+                {
+                    "id": 4,
+                    "categorie": "series",
+                    "title": "Mayans MC",
+                    "url": "https://www.youtube.com/embed/1MdLzt-sE2c"
+                },
+                {
+                    "id": 5,
+                    "categorie": "series",
+                    "title": "Stranger Things",
+                    "url": "https://www.youtube.com/embed/yTX0HxTq9wo"
+                },
+                {
+                    "id": 23,
+                    "categorie": "movies",
+                    "title": "Whiplash",
+                    "url": "https://www.youtube.com/embed/7d_jQycdQGo"
+                },
+                {
+                    "id": 24,
+                    "categorie": "movies",
+                    "title": "Liar Liar",
+                    "url": "https://www.youtube.com/embed/fRpNsFae8yk"
+                },
+                {
+                    "id": 25,
+                    "categorie": "series",
+                    "title": "The Office",
+                    "url": "https://www.youtube.com/embed/OXcCS6b8NuA"
+                },
+                {
+                    "id": 26,
+                    "categorie": "series",
+                    "title": "Rick and Morty",
+                    "url": "https://www.youtube.com/embed/EBYsx1QWF9A"
+                },
+                {
+                    "id": 27,
+                    "categorie": "series",
+                    "title": "Community",
+                    "url": "https://www.youtube.com/embed/aVcxjxLipf0"
+                }
+            ]
+        },
+        {
+            "continuarAssistindo": [
+            {
+                "id": 6,
+                "categorie": "movies",
+                "title": "Batman",
+                "url": "https://www.youtube.com/embed/HJv4LQxbVEA"
+            },
+            {
+                "id": 7,
+                "categorie": "movies",
+                "title": "Lightyear",
+                "url": "https://www.youtube.com/embed/DbBe5U8m_KU"
+            },
+            {
+                "id": 8,
+                "categorie": "movies",
+                "title": "Moonfall",
+                "url": "https://www.youtube.com/embed/8g_VdOyWG04"
+            },
+            {
+                "id": 9,
+                "categorie": "series",
+                "title": "Friends",
+                "url": "https://www.youtube.com/embed/oqDSrMK_Gyg"
+            },
+            {
+                "id": 10,
+                "categorie": "series",
+                "title": "Breaking Bad",
+                "url": "https://www.youtube.com/embed/QmHCn5xXHjI"
+            }            
+        ]
+    },
+{
+                "emAlta": [
+                    {
+                        "id": 11,
+                        "categorie": "series",
+                        "title": "Game of Thrones",
+                        "url": "https://www.youtube.com/embed/GFefgQ61Vjg"
+                    },
+                    {
+                        "id": 12,
+                        "categorie": "series",
+                        "title": "Ted Lasso",
+                        "url": "https://www.youtube.com/embed/dMG30Mt0tPU"
+                    },
+                    {
+                        "id": 13,
+                        "categorie": "movies",
+                        "title": "Scream",
+                        "url": "https://www.youtube.com/embed/m4a96aU1rqI"
+                    },
+                    {
+                        "id": 14,
+                        "categorie": "series",
+                        "title": "The Boys",
+                        "url": "https://www.youtube.com/embed/Fd71IPe6ChA"
+                    },
+                    {
+                        "id": 15,
+                        "categorie": "movies",
+                        "title": "Whiplash",
+                        "url": "https://www.youtube.com/embed/zvtUrjfnSnA"
+                    }
+
+                ]
+            },
+            {
+                "documentarios": [
+                    {
+                        "id": 16,
+                        "categorie": "documentaries",
+                        "title": "Amazing Quest Australia",
+                        "url": "https://www.youtube.com/embed/Bek4oKXFIsU"
+                    },
+                    {
+                        "id": 17,
+                        "categorie": "documentaries",
+                        "title": "Amazing Quest Brazil",
+                        "url": "https://www.youtube.com/embed/lDPyZg-GFrU"
+                    },
+                    {
+                        "id": 18,
+                        "categorie": "documentaries",
+                        "title": "Deadliest Roads",
+                        "url": "https://www.youtube.com/embed/Gw4BM3FNXpY"
+                    },
+                    {
+                        "id": 19,
+                        "categorie": "documentaries",
+                        "title": "Lost in Congo",
+                        "url": "https://www.youtube.com/embed/jaC1y44svpE"
+                    },
+                    {
+                        "id": 20,
+                        "categorie": "documentaries",
+                        "title": "Deep Sea",
+                        "url": "https://www.youtube.com/embed/hSymuNCvKrE"
+                    },
+                    {
+                        "id": 21,
+                        "categorie": "documentaries",
+                        "title": "Mariana Trench",
+                        "url": "https://www.youtube.com/embed/VoEVezcE0k0"
+                    },
+                    {
+                        "id": 22,
+                        "categorie": "documentaries",
+                        "title": "Cetaceans",
+                        "url": "https://www.youtube.com/embed/jLdO9MBI7eQ"
+                    }
+                ]
+            }
+        
+    ]
+    
+}

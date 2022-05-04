@@ -1,0 +1,23 @@
+h1 {
+    text-align: start;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 100;
+    width: 100vw;
+}
+
+.container-my-list {
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 30px 30px 30px 30px;
+    padding: 10px;
+
+}
+
+.list-item {
+    margin: 20px;
+    padding: 10px;
+    
+}

@@ -1,0 +1,93 @@
+footer {
+    color: rgba(100, 94, 94, 0.651);
+    font-size: 14px;
+    font-weight: 100;
+    width: 100vh;
+    height: 40vh;
+    margin-top: 8%;
+    position: relative;
+    left: 10%;
+    
+}
+
+
+.container-network {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.container-menus {
+    width: 80vw;
+    min-height: 25vh;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: repeat(1fr, 4);
+    gap: 40px;
+    
+}
+
+.group-1 {
+    margin: 10px;
+    padding: 5px;
+    grid-column: 1 / 1;
+    grid-row: 1 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.group-2 {
+    grid-column: 2 / 2;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.group-3 {
+    grid-column: 3 / 3;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.group-4 {
+    grid-column: 4 / 4;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-menus a {
+    text-decoration: none;
+    color: rgba(100, 94, 94, 0.651);
+}
+
+.container-menus a:hover {
+    text-decoration: underline;
+}
+
+.footer-button {
+    width: 25%;
+    max-height: 5%;
+    padding: 5px 0px 10px 0px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgba(100, 94, 94, 0.651);
+    border: solid 3px rgba(100, 94, 94, 0.651);
+}
+
+.footer-button:hover {
+    color: rgba(245, 245, 245, 0.877);
+    border: solid 3px rgba(245, 245, 245, 0.877);
+}
