@@ -1,0 +1,14 @@
+.search-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0;
+}
+
+.search-input-inactive {
+    display: none;
+}
+
+.search-input-active {
+    display: inline;
+}

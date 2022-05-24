@@ -7,6 +7,7 @@ import SelectUser from './pages/SelectUser';
 import Series from './pages/Series/Series';
 import Movies from './pages/Movies/Movies';
 import MyList from './pages/MyList/MyList';
+import Search from './pages/Search/Search'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/Movies" element={<Movies/>}/>
             <Route path="/MyList" element={<MyList/>}/>
             <Route path="*" element={<NotFound />} />
+            <Route path="/Search" element={<Search/>}/>
           </Routes>
         
       </div>

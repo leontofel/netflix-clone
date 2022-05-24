@@ -27,11 +27,6 @@ li {
     margin: 10px;
 }
 
-
-form {
-    display: none;
-}
-
 button, button:hover, a {
     border: none;
     text-decoration: none;
