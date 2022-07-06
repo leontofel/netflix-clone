@@ -18,7 +18,7 @@ export default () => {
             </header>
 
             <h1>Quem está assistindo?</h1>
-            <ul>
+            <ul className='profiles-list'>
                 <Link to="/Home">
                     <li className="profile">
                         <img src={profile1} alt="" className="profile-img" />
@@ -45,7 +45,7 @@ export default () => {
                 </Link>
             </ul>
 
-            <button>Gerenciar perfis</button>
+            <button className='button-profiles'>Gerenciar perfis</button>
 
         </>
     )

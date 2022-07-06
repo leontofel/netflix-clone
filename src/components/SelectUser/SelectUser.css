@@ -10,7 +10,7 @@
     padding: 5px;
 }
 
-ul {
+.profiles-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,19 +30,19 @@ h1 {
     padding: 0;
 }
 
-button {
+.button-profiles {
     width: 15%;
     height: 20%;
     font-size: 1.2rem;
     text-align: center;
     color: rgba(141, 145, 148, 0.678);
-    border: 5px light rgba(141, 145, 148, 0.678);
+    border: 2px solid rgba(141, 145, 148, 0.678);
     position: relative;
     left: 40%;
     
 }
 
-button:hover, .profile-img:hover {
+.button-profiles:hover, .profile-img:hover {
     cursor: pointer;
     border: 3px solid white;
     transition: 0.3s;
@@ -50,4 +50,26 @@ button:hover, .profile-img:hover {
 
 p {
     position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .profiles-list {
+        flex-direction: column;
+    }
+    .img-logo {
+        width: 30%;
+        margin: 10% 35%;
+    }
+    h1 {
+        padding-left: 15%;
+    }
+    .button-profiles {
+        border: 1px solid white;
+        width: 40%;
+        left: 30%;
+        bottom: 3%;
+        
+    }
+
+
 }

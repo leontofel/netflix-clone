@@ -9,14 +9,14 @@ export default function Header() {
     return (
         <>
             <header>
-                <Link to="/"><img src={Logo} alt="Logo" /></Link>
+                <div className='logo-container'><Link to="/"><img src={Logo} className='header-logo' alt="Logo" /></Link></div>
                 <nav>
-                    <ul>
-                        <li><Link to="/Home">Início</Link></li>
-                        <li><Link to="/Series">Séries</Link></li>
-                        <li><Link to="/Movies">Filmes</Link></li>
-                        <li><Link to="/">Bombando</Link></li>
-                        <li><Link to="/MyList">Minha Lista</Link></li>
+                    <ul className='nav-menu'>
+                        <li className='nav-menu-item'><Link to="/Home">Início</Link></li>
+                        <li className='nav-menu-item'><Link to="/Series">Séries</Link></li>
+                        <li className='nav-menu-item'><Link to="/Movies">Filmes</Link></li>
+                        <li className='nav-menu-item'><Link to="/">Bombando</Link></li>
+                        <li className='nav-menu-item'><Link to="/MyList">Minha Lista</Link></li>
                     </ul>
 
                     <SearchBar />

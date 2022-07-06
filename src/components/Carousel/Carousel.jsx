@@ -11,7 +11,7 @@ export default (props) => {
     function makeAVideoList(name) {
         name.map((item) => {
             let teste = (
-                <div className="item" id={item.id}>
+                <div className="item" key={item.id}>
                     <Video title={item.title} url={item.url} />
                 </div>
             )

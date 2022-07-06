@@ -3,14 +3,14 @@
     text-align: center;
 }
 .search-container {
-    width: 100%;
+    width: 100vw;
     text-align: center;
     font-size: 18px;
     font-weight: 300;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .search-container img {
@@ -23,4 +23,15 @@
     width: 30%;
     flex-direction: column;
     
+}
+
+@media only screen and (max-width: 600px) {
+    .search-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .search-container img {
+        width: 90vw;
+    }
 }

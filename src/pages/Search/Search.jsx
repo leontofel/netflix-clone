@@ -25,7 +25,7 @@ export default function SearchPage() {
     return (
         <>
             <Header/>
-            <section >
+            <section className='search-section'>
                 <h2 className="search-title">{searchObject.Title}</h2>
                 <div className="search-container">
                     <img src={searchObject.Poster} alt={`${searchObject.Title}'s poster`} />
